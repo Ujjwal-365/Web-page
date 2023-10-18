@@ -1,0 +1,138 @@
+
+
+.login-container{
+   
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.login-cont-box{
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(254, 254, 254);
+    padding: 90px;
+
+}
+.login-cont-box h2{
+
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.login-cont-box p{
+    color: #0e0808;
+    font-size: 17px;
+    font-weight: 400;
+}
+.login-cont-box input {
+    
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 16px;
+    width: 100%;
+    background: rgba(240, 237, 255, 0.80);
+    border: none;
+    
+}
+.login-btn {
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    width: 124px;
+    height: 52px;
+    border-radius: 16px;
+    background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
+    box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16);
+}
+
+.input-user::placeholder {
+
+    background-image:url('../images/Frame.svg') ;
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position-x: 10px;
+    
+}
+.input-password::placeholder {
+
+    background-image:url('../images/Frame(1).svg') ;
+    background-position-x: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+.google-btn,.facebook-btn{
+    width: 100%;
+    padding: 10px;
+    border-color:rgba(154, 154, 161, 0.192);
+    border-radius: 16px;;
+    border-width: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    
+}
+
+
+
+
+
+.image-container{
+    display: flex;
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/rect.svg);
+    background-size:cover;
+    
+}
+
+.img-container-txt{
+    position: absolute;
+    align-items: center;
+    width: 500px;
+    height:62%;
+    padding: 20px;
+    color: #FFF;
+    font-size: 45px;    
+    font-weight: 700;
+    line-height: 55px;
+    border: 2px solid #ffffff5d;
+    border-radius: 50px;
+    background-color: #ffffff19;
+    
+}
+
+.img-container-img img{
+
+    
+    position: absolute;
+    margin-top: -376px;
+    width: 170%;
+    right:-130px;
+}
+
+.image-thunder{
+    position: absolute ;
+    margin-left:-60px;
+    
+    padding: 17px;
+    background-color: white;
+    height: 40px;
+    border-radius: 60%;
+  
+}
+
+
